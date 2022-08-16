@@ -1,7 +1,7 @@
 function Navbar() {
     return (
         <nav className='flex   text-slate-100  font-bold text-lg'>
-            <a href='#'>Overview</a>
+            <a href='#overview'>Overview</a>
             <a href='#'>Projects</a>
             <a href='#'>Contact</a>
             <style jsx='true'>{`
