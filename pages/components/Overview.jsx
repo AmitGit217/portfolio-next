@@ -1,20 +1,12 @@
 import Typewriter from "typewriter-effect";
-import Video from "../../public/assets/video.mp4";
-import Card from "./Card";
-import { cards } from "../data/cardData";
+import ParticlesComponent from "../components/Particles.tsx";
 
 function Overview() {
     return (
-        <section className='flex flex-col'>
-            <div className='relative'>
-                <video
-                    style={{ width: "100%", height: "100%" }}
-                    autoPlay
-                    muted
-                    loop>
-                    <source src={Video} type='video/mp4' />
-                </video>
-                <div className='typed absolute text-slate-100 top-36 left-36 flex gap-x-5 text-8xl'>
+        <div id='overview'>
+            <div className='flex flex-col'>
+                <ParticlesComponent />
+                <div className='typed text-slate-100 text-8xl sm:text-5xl ml-10'>
                     I am a{" "}
                     <Typewriter
                         options={{
@@ -30,17 +22,8 @@ function Overview() {
                     />
                 </div>
             </div>
-            <div className='self-center flex gap-x-36 mt-10' id='overview'>
-                {cards.map((card, index) => (
-                    <Card
-                        key={index}
-                        frontTitle={card.frontTitle}
-                        frontImage={card.frontImage}
-                        backDescription={card.backDescription}
-                    />
-                ))}
-            </div>
-        </section>
+            <div></div>
+        </div>
     );
 }
 

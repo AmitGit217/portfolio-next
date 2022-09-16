@@ -2,7 +2,7 @@ function Navbar() {
     return (
         <nav className='flex   text-slate-100  font-bold text-lg'>
             <a href='#overview'>Overview</a>
-            <a href='#'>Projects</a>
+            <a href='#projects'>Projects</a>
             <a href='#'>Contact</a>
             <style jsx='true'>{`
                 a {

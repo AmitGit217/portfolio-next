@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.5",
     "next": "^12.2.5",
     "next-videos": "^1.5.0",
     "react": "^18.2.0",
     "react-card-flip": "^1.1.5",
     "react-card-slider-component": "^1.0.9",
     "react-dom": "^18.2.0",
+    "react-tsparticles": "^2.3.1",
+    "tsparticles": "^2.3.1",
+    "tsparticles-interaction-external-bounce": "^2.3.1",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
