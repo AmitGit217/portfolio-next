@@ -2,7 +2,7 @@ import ReactCardFlip from "react-card-flip";
 import { useState } from "react";
 import Image from "next/image";
 import { Button, Link } from "@mui/material";
-import github from "../../public/assets/github.svg";
+import github from "../public/assets/github.svg";
 
 function Card({ frontTitle, frontImage, backDescription, projectLink }) {
     const [isFlipped, setFlip] = useState(false);

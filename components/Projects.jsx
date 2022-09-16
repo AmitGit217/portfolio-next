@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { cards } from "../data/cardData";
+import { cards } from "../lib/cardData";
 
 function Projects() {
     return (

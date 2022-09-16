@@ -38,12 +38,14 @@ function Contact() {
                 type={"text"}
                 label='name'
                 name='from_name'
+                required
             />
             <TextField
                 className=' w-full'
                 type={"email"}
                 label='email'
                 name='user_email'
+                required
             />
             <TextField
                 className=' w-full'
@@ -53,6 +55,7 @@ function Contact() {
                 multiline
                 rows={4}
                 maxRows={6}
+                required
             />
             <Button
                 type='submit'

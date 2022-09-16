@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
-import ParticlesComponent from "../components/Particles.tsx";
+import ParticlesComponent from "./Particles.jsx";
 
 function Overview() {
     return (
