@@ -9,14 +9,12 @@ function Card({ frontTitle, frontImage, backDescription, projectLink }) {
     const handleClick = () => setFlip(!isFlipped);
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection='horizontal'>
-            <div className='card bg-white p-5 rounded-md flex flex-col items-center gap-y-3  max-w-xs  h-96 justify-center border-solid border-2 border-slate-600'>
+            <div className='card bg-black p-5 rounded-md flex flex-col items-center justify-evenly max-w-xs  h-96 border-solid border-2 border-slate-600'>
                 <Image
                     src={frontImage}
-                    alt=''
-                    width={"225"}
-                    height={"225"}
-                    style={{ backgroundColor: "#00000071", objectFit: "cover" }}
-                    className='rounded-full'
+                    alt='front image'
+                    width={"250"}
+                    height={"50"}
                 />
                 <h3 className=' font-sans'>{frontTitle}</h3>
                 <Button
