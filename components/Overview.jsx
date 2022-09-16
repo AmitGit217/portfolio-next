@@ -1,6 +1,17 @@
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import ParticlesComponent from "./Particles.jsx";
+import html from "../public/assets/html-5.png";
+import css from "../public/assets/css-3.png";
+import js from "../public/assets/js.png";
+import react from "../public/assets/structure.png";
+import node from "../public/assets/nodejs.png";
+import express from "../public/assets/express.png";
+import mongo from "../public/assets/mongodb-icon.png";
+
+import types from "../public/assets/type.png";
+import redux from "../public/assets/redux.png";
+import dp from "../public/assets/DP.png";
 
 function Overview() {
     return (
@@ -28,44 +39,44 @@ function Overview() {
                     </h2>
                     <div className='flex flex-wrap gap-7  max-w-sm justify-center'>
                         <Image
-                            src={"/../public/assets/html-5.png"}
+                            src={html}
                             alt='react'
                             width={"75"}
                             height={"75"}
                         />
                         <Image
-                            src={"/../public/assets/css-3.png"}
+                            src={css}
                             alt='react'
                             width={"75"}
                             height={"75"}
                         />
                         <Image
-                            src={"/../public/assets/js.png"}
+                            src={js}
                             alt='react'
                             width={"75"}
                             height={"75"}
                         />
                         <Image
-                            src={"/../public/assets/structure.png"}
+                            src={react}
                             alt='react'
                             width={"75"}
                             height={"75"}
                         />
                         <Image
-                            src={"/../public/assets/nodejs.png"}
+                            src={node}
                             alt='react'
                             width={"75"}
                             height={"75"}
                         />
                         <Image
                             className='rounded-full'
-                            src={"/../public/assets/express.png"}
+                            src={express}
                             alt='react'
                             width={"75"}
                             height={"75"}
                         />
                         <Image
-                            src={"/../public/assets/mongodb-icon.png"}
+                            src={mongo}
                             alt='react'
                             width={"75"}
                             height={"75"}
@@ -75,29 +86,29 @@ function Overview() {
                         Currently learning
                     </h2>
                     <div className='flex flex-wrap gap-7  max-w-sm justify-center'>
-                        <Image
+                        {/* <Image
                             className='rounded-full'
-                            src={"/../public/assets/query.avif"}
+                            src={query}
+                            alt='react'
+                            width={"75"}
+                            height={"75"}
+                        /> */}
+                        <Image
+                            src={types}
                             alt='react'
                             width={"75"}
                             height={"75"}
                         />
                         <Image
-                            src={"/../public/assets/type.png"}
-                            alt='react'
-                            width={"75"}
-                            height={"75"}
-                        />
-                        <Image
                             className='rounded-full'
-                            src={"/../public/assets/redux.png"}
+                            src={redux}
                             alt='react'
                             width={"75"}
                             height={"70"}
                         />
                         <Image
                             className='rounded-full'
-                            src={"/../public/assets/DP.png"}
+                            src={dp}
                             alt='react'
                             width={"75"}
                             height={"75"}

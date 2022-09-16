@@ -13,7 +13,6 @@ function Projects() {
                 {cards.map((card, index) => (
                     <Card
                         key={index}
-                        frontTitle={card.frontTitle}
                         frontImage={card.frontImage}
                         backDescription={card.backDescription}
                         projectLink={card.projectLink}

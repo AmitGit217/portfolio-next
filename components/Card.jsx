@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Button, Link } from "@mui/material";
 import github from "../public/assets/github.svg";
 
-function Card({ frontTitle, frontImage, backDescription, projectLink }) {
+function Card({ frontImage, backDescription, projectLink }) {
     const [isFlipped, setFlip] = useState(false);
     const handleClick = () => setFlip(!isFlipped);
     return (
