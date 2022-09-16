@@ -13,8 +13,8 @@ function Card({ frontTitle, frontImage, backDescription, projectLink }) {
                 <Image
                     src={frontImage}
                     alt='front image'
-                    width={"250"}
-                    height={"50"}
+                    width={"230"}
+                    height={"40"}
                 />
                 <h3 className=' font-sans'>{frontTitle}</h3>
                 <Button
