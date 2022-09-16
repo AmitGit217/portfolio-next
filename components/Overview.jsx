@@ -8,7 +8,7 @@ import react from "../public/assets/structure.png";
 import node from "../public/assets/nodejs.png";
 import express from "../public/assets/express.png";
 import mongo from "../public/assets/mongodb-icon.png";
-
+import query from "../public/assets/query.svg";
 import types from "../public/assets/type.png";
 import redux from "../public/assets/redux.png";
 import dp from "../public/assets/DP.png";
@@ -86,13 +86,13 @@ function Overview() {
                         Currently learning
                     </h2>
                     <div className='flex flex-wrap gap-7  max-w-sm justify-center'>
-                        {/* <Image
+                        <Image
                             className='rounded-full'
                             src={query}
                             alt='react'
                             width={"75"}
                             height={"75"}
-                        /> */}
+                        />
                         <Image
                             src={types}
                             alt='react'
