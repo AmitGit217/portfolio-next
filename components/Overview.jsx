@@ -11,7 +11,14 @@ import mongo from "../public/assets/mongodb-icon.png";
 import query from "../public/assets/query.svg";
 import types from "../public/assets/type.png";
 import redux from "../public/assets/redux.png";
-import dp from "../public/assets/DP.png";
+import docker from "../public/assets/docker.svg";
+import nest from "../public/assets/nest.svg";
+import google from "../public/assets/googlecloud.svg";
+import amazon from "../public/assets/amazon.svg";
+import nginx from "../public/assets/nginx.svg";
+import linux from "../public/assets/linux.svg";
+import postgresql from "../public/assets/postgresql.svg";
+import jest from "../public/assets/jest.svg";
 
 function Overview() {
     return (
@@ -81,37 +88,72 @@ function Overview() {
                             width={"75"}
                             height={"75"}
                         />
-                    </div>
-                    <h2 className='typed text-slate-100 text-7xl  text-center mt-36 sm:text-3xl mb-10'>
-                        Currently learning
-                    </h2>
-                    <div className='flex flex-wrap gap-7  max-w-sm justify-center'>
-                        <Image
-                            className='rounded-full'
-                            src={query}
-                            alt='react'
-                            width={"75"}
-                            height={"75"}
-                        />
                         <Image
                             src={types}
                             alt='react'
                             width={"75"}
                             height={"75"}
                         />
+                    </div>
+                    <h2 className='typed text-slate-100 text-7xl  text-center mt-36 sm:text-3xl mb-10'>
+                        Currently learning
+                    </h2>
+                    <div className='flex flex-wrap gap-7  max-w-lg justify-center'>
                         <Image
                             className='rounded-full'
-                            src={redux}
+                            src={docker}
                             alt='react'
-                            width={"75"}
-                            height={"70"}
+                            width={"110"}
+                            height={"80"}
                         />
                         <Image
                             className='rounded-full'
-                            src={dp}
+                            src={nest}
                             alt='react'
-                            width={"75"}
-                            height={"75"}
+                            width={"110"}
+                            height={"80"}
+                        />
+                        <Image
+                            className='rounded-full'
+                            src={google}
+                            alt='react'
+                            width={"110"}
+                            height={"80"}
+                        />
+                        <Image
+                            className='rounded-full'
+                            src={amazon}
+                            alt='react'
+                            width={"110"}
+                            height={"80"}
+                        />
+                        <Image
+                            className='rounded-full'
+                            src={nginx}
+                            alt='react'
+                            width={"110"}
+                            height={"80"}
+                        />
+                        <Image
+                            className='rounded-full'
+                            src={linux}
+                            alt='react'
+                            width={"110"}
+                            height={"80"}
+                        />
+                        <Image
+                            className='rounded-full'
+                            src={postgresql}
+                            alt='react'
+                            width={"115"}
+                            height={"80"}
+                        />
+                        <Image
+                            className='rounded-full'
+                            src={jest}
+                            alt='react'
+                            width={"135"}
+                            height={"80"}
                         />
                     </div>
                 </div>

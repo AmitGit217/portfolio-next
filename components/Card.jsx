@@ -13,8 +13,8 @@ function Card({ frontImage, backDescription, projectLink }) {
                 <Image
                     src={frontImage}
                     alt='front image'
-                    width={"230"}
-                    height={"40"}
+                    width={"200"}
+                    height={"75"}
                 />
 
                 <Button
